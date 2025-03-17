@@ -105,26 +105,27 @@ const textInput = document.getElementById("text-input");
 //search function constants
 //play with Google search function to come up with search terms most relevant to you. Think about how these search terms tell a story. Replace all of the placeholder text below (phrases in red font) with search terms of your own. If you keep the phrases organised alphabetically, you can ensure you have enough results for each word.
 const words = [
-  "art of war free download",
-  "ask izzy",
-  "australian family law issues in the news",
+  "angry bees and how to deal with them",
+  "artificial intelligence",
+  "artbook - how to draw for dummies",
+  "acrostic poems and how to write one",
 
-  "barrister vs lawyer australia",
-  "barrister vs solicitor",
-  "bulk billed therapy",
+  "baked goods that are easy to make",
+  "bowen street press",
+  "blake lively and Anna Kendrick",
 
-  "can i seek to vary my family court order",
-  "ccs has no cctv",
-  "childcare how expensive",
+  "cockatoo's and magpies which one is louder",
+  "current agricultural news",
+  "cats",
 
-  "delete search history",
-  "delusional jealousy",
-  "dv stats australia",
+  "docs.google",
+  "dancing with the stars",
+  "david attenborough",
 
-  "earliest memories as a child",
-  "emotional manipulation signs",
+  "electric Literature",
+  "Entire solar systems yet to be discovered",
 
-  "fridge magnets",
+  "french fries from Grill'd",
 ];
 //search function (do not edit)
 function changeText(e) {
