@@ -12,14 +12,10 @@ var speed = 50;
 
 //function for network error message
 const sent1 = [
-  "Your device is not connected.",
-  "Make sure '[—]' is turned on and in range.",
-  "Now discoverable as '[—]'.",
-  "Connection unsuccessful.",
-  "Your connection is unstable.",
-  "Out of range.",
-  "Unexpected device.",
-  "Bad connection.",
+  "Your device is broken.",
+  "Make sure your device is in range.",
+  "connection failure.",
+  "you honestly suck at technology.",
 ];
 
 const buttonRetry = document.getElementById("button-network");
@@ -41,15 +37,15 @@ function addEval(evalText) {
 function dropdownFunction() {
   var x = document.getElementById("subject").value;
   if (x === "flighty") {
-    addEval("🛩️🐦🦅🦋🌪️💭");
+    addEval("ohh planes");
   } else if (x === "vague") {
-    addEval("🥱👽🐙🪼🌘");
+    addEval("get a dictionary");
   } else if (x === "joyful") {
-    addEval("😀😍😸👾👻🕺");
+    addEval("dancing in the rain");
   } else if (x === "cloudy") {
-    addEval("🌦️🌨️🫧🌫️☔⚡🥶");
+    addEval("these codes");
   } else if (x === "hangry") {
-    addEval("🍟🥨🌮🥗🍱");
+    addEval("pasta sauce");
   }
 }
 //end of dropdown function
